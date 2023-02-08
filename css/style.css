@@ -63,6 +63,10 @@ header {
     width: 100%;
 }
 
+.item-img {
+    position: relative;
+}
+
 .brand {
     font-size: 0.9rem;
     text-transform: capitalize;
@@ -83,4 +87,42 @@ header {
     color: black;
     text-decoration-line: line-through;
     font-weight: 400;
+}
+
+.discount {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    background-color: red;
+    color: white;
+}
+
+.eco {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    background-color: green;
+    color: white;
+}
+
+.heart {
+    font-size: 2.2rem;
+    padding: 0.3rem 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+}
+
+.label-one{
+    bottom: 50px;
+    left: 0;
+}
+
+.label-two{
+    left: 55px;
+    bottom: 50px;
 }
