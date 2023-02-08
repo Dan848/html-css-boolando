@@ -7,14 +7,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-header {
-    background-color: #ff6900;
-    color: #ffffff;
-}
-
+/* Layout */
 .center-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -22,9 +17,8 @@ header {
     padding: 1rem;
 }
 
-.pad-left-right {
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
+.margin-t {
+    margin-top: 2rem;
 }
 
 .flex-between {
@@ -36,6 +30,13 @@ header {
 
 ul {
     list-style: none;
+}
+/* /Layout */
+
+/* Header */
+header {
+    background-color: #ff6900;
+    color: #ffffff;
 }
 
 .logo {
@@ -50,4 +51,36 @@ ul {
 .ul-head li {
     font-weight: 600;
     padding-right: 1rem;
+}
+/*/header*/
+
+.item {
+    width: calc(100%/3);
+    padding: 0.5rem;
+}
+
+.item-img img {
+    width: 100%;
+}
+
+.brand {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.name {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.price {
+    color: red;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.side-price {
+    color: black;
+    text-decoration-line: line-through;
+    font-weight: 400;
 }
