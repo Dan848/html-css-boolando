@@ -52,8 +52,9 @@ header {
     font-weight: 600;
     padding-right: 1rem;
 }
-/*/header*/
+/* /Header */
 
+/* Main */
 .item {
     width: calc(100%/3);
     padding: 0.5rem;
