@@ -13,8 +13,8 @@ body {
     margin: 0 auto;
 }
 
-.pad-full{
-    padding: 1rem;
+.pad-full {
+    padding: 1rem 0.5rem;
 }
 
 .margin-t {
@@ -31,6 +31,11 @@ body {
 ul {
     list-style: none;
 }
+
+.small-text {
+    font-size: 0.9rem;
+}
+
 /* /Layout */
 
 /* Header */
@@ -41,6 +46,10 @@ header {
 
 .logo {
     height: 35px;
+}
+
+.icon-menu{
+    text-align: right;
 }
 
 .icon-menu i {
@@ -69,7 +78,6 @@ header {
 }
 
 .brand {
-    font-size: 0.9rem;
     text-transform: capitalize;
 }
 
@@ -81,7 +89,6 @@ header {
 .price {
     color: red;
     font-weight: 600;
-    font-size: 0.9rem;
 }
 
 .side-price {
@@ -92,7 +99,6 @@ header {
 
 .discount {
     padding: 0.2rem 0.5rem;
-    font-size: 0.9rem;
     font-weight: 600;
     position: absolute;
     background-color: red;
@@ -101,7 +107,6 @@ header {
 
 .eco {
     padding: 0.2rem 0.5rem;
-    font-size: 0.9rem;
     font-weight: 600;
     position: absolute;
     background-color: green;
@@ -127,3 +132,25 @@ header {
     left: 55px;
     bottom: 50px;
 }
+/* /Main */
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: white
+}
+
+.pad-footer {
+    padding: 1.5rem 0.5rem;
+}
+
+.info-f-name{
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.ul-footer li {
+    padding-right: 1rem;
+}
+
+/* /Footer */
