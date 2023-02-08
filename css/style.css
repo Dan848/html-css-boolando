@@ -17,10 +17,6 @@ body {
     padding: 1rem 0.5rem;
 }
 
-.margin-t {
-    margin-top: 2rem;
-}
-
 .flex-between {
     display: flex;
     flex-flow: row wrap;
@@ -39,8 +35,12 @@ ul {
 
 /* Header */
 header {
+    width: 100%;
     background-color: #ff6900;
     color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 9;
 }
 
 .logo {
@@ -63,7 +63,12 @@ header {
 /* /Header */
 
 /* Main */
+main {
+    margin-top: 5rem;
+}
+
 .item {
+    margin-top: 2rem;
     width: calc(100%/3);
     padding: 0.5rem;
 }
@@ -137,6 +142,11 @@ header {
     z-index: 1;
 }
 
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .label-one{
     bottom: 50px;
     left: 0;
@@ -150,6 +160,7 @@ header {
 
 /* Footer */
 footer {
+    margin-top: 3rem;
     background-color: #1a1a1a;
     color: white
 }
